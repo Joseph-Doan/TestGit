@@ -21,6 +21,7 @@
 		811D95C819CA25D700DEA440 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811D95AA19CA25D700DEA440 /* UIKit.framework */; };
 		811D95D019CA25D700DEA440 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 811D95CE19CA25D700DEA440 /* InfoPlist.strings */; };
 		811D95D219CA25D700DEA440 /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D95D119CA25D700DEA440 /* TestGitTests.m */; };
+		811D95E019CA29E000DEA440 /* FCTestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D95DF19CA29E000DEA440 /* FCTestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		811D95CD19CA25D700DEA440 /* TestGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGitTests-Info.plist"; sourceTree = "<group>"; };
 		811D95CF19CA25D700DEA440 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		811D95D119CA25D700DEA440 /* TestGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitTests.m; sourceTree = "<group>"; };
+		811D95DE19CA29E000DEA440 /* FCTestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCTestGit.h; sourceTree = "<group>"; };
+		811D95DF19CA29E000DEA440 /* FCTestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCTestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				811D95B519CA25D700DEA440 /* FCAppDelegate.h */,
 				811D95B619CA25D700DEA440 /* FCAppDelegate.m */,
 				811D95B819CA25D700DEA440 /* Main.storyboard */,
+				811D95DE19CA29E000DEA440 /* FCTestGit.h */,
+				811D95DF19CA29E000DEA440 /* FCTestGit.m */,
 				811D95BB19CA25D700DEA440 /* FCViewController.h */,
 				811D95BC19CA25D700DEA440 /* FCViewController.m */,
 				811D95BE19CA25D700DEA440 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				811D95B319CA25D700DEA440 /* main.m in Sources */,
 				811D95B719CA25D700DEA440 /* FCAppDelegate.m in Sources */,
 				811D95BD19CA25D700DEA440 /* FCViewController.m in Sources */,
+				811D95E019CA29E000DEA440 /* FCTestGit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
